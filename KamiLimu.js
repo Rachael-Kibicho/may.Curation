@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const spaceSound = document.getElementById("spaceSound");
-    spaceSound.volume = 0.5;
+    spaceSound.volume = 0.9;
     const pageTitle = document.querySelector(".container1");
     const bodyContent = document.querySelector(".content");
     let isSoundPlayed = false;
