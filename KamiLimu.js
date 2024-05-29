@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       controls: true,
       autoplay: false,
       preload: "auto",
+      type:'video/mp4; codecs=avc1.42E01E'
     });
 
     player.on("play", () => {
